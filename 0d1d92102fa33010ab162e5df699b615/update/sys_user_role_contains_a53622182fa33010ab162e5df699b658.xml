@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_704258_employee.employee_user" name="x_704258_employee.employee_user">a330e6902fa33010ab162e5df699b672</contains>
+        <role display_value="x_704258_employee.manager" name="x_704258_employee.manager">61702ad02fa33010ab162e5df699b682</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 05:56:21</sys_created_on>
+        <sys_id>a53622182fa33010ab162e5df699b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_704258_employee.employee_user.x_704258_employee.manager</sys_name>
+        <sys_package display_value="Employee Onboarding" source="x_704258_employee">0d1d92102fa33010ab162e5df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</sys_scope>
+        <sys_update_name>sys_user_role_contains_a53622182fa33010ab162e5df699b658</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 05:56:21</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

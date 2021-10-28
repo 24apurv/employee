@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>50</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Storage">701953d02f673010ab162e5df699b66c</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 09:39:49</sys_created_on>
+        <sys_id>2649d3d02f673010ab162e5df699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2.5 in, 1 TB, 7200 RPM, SATA HDD </sys_name>
+        <sys_package display_value="Employee Onboarding" source="x_704258_employee">0d1d92102fa33010ab162e5df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</sys_scope>
+        <sys_update_name>question_choice_2649d3d02f673010ab162e5df699b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 09:39:49</sys_updated_on>
+        <text>2.5 in, 1 TB, 7200 RPM, SATA HDD </text>
+        <value>1tb_sata_hdd</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=2649d3d02f673010ab162e5df699b64e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>50</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>2649d3d02f673010ab162e5df699b64e</id>
+        <parent/>
+        <reference_amount>50</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 09:39:49</sys_created_on>
+        <sys_id>17595bd02f673010ab162e5df699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 09:39:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>2649d3d02f673010ab162e5df699b64e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 09:39:49</sys_created_on>
+        <sys_id>db595bd02f673010ab162e5df699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 09:39:49</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

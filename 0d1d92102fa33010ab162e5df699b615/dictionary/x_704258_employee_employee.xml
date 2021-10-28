@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_704258_employee_employee" sizeclass="2" type="collection">
+        <element label="Address" max_length="1000" name="address" type="string"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element label="Email" mandatory="true" max_length="200" name="email" type="string"/>
+        <element label="Employee ID" max_length="15" name="employee_id" read_only="true" type="string"/>
+        <element label="First Name" mandatory="true" max_length="100" name="first_name" type="string"/>
+        <element label="Last Name" mandatory="true" max_length="100" name="last_name" type="string"/>
+        <element label="Manager" max_length="32" name="manager" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Registration Date" max_length="40" name="registration_date" type="glide_date"/>
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="External" value="External"/>
+                <element inactive_on_update="false" label="Internal" value="Internal"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

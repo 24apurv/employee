@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 05:30:20</sys_created_on>
+        <sys_id>204026d02fa33010ab162e5df699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_704258_employee_employee.x_704258_employee.employee_user</sys_name>
+        <sys_package display_value="Employee Onboarding" source="x_704258_employee">0d1d92102fa33010ab162e5df699b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</sys_scope>
+        <sys_security_acl display_value="x_704258_employee_employee">604026d02fa33010ab162e5df699b69c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_204026d02fa33010ab162e5df699b69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 05:30:20</sys_updated_on>
+        <sys_user_role display_value="x_704258_employee.employee_user" name="x_704258_employee.employee_user">a330e6902fa33010ab162e5df699b672</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</application>
+        <file_path/>
+        <instance_id>4b2e0aa5db321740ff27d5b0cf9619b9</instance_id>
+        <instance_name>dev61780</instance_name>
+        <name>sys_security_acl_role_204026d02fa33010ab162e5df699b69f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-28 05:30:20</sys_created_on><sys_id>204026d02fa33010ab162e5df699b69f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_704258_employee_employee.x_704258_employee.employee_user</sys_name><sys_package display_value="Employee Onboarding" source="x_704258_employee">0d1d92102fa33010ab162e5df699b615</sys_package><sys_policy/><sys_scope display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</sys_scope><sys_security_acl display_value="x_704258_employee_employee">604026d02fa33010ab162e5df699b69c</sys_security_acl><sys_update_name>sys_security_acl_role_204026d02fa33010ab162e5df699b69f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-28 05:30:20</sys_updated_on><sys_user_role display_value="x_704258_employee.employee_user" name="x_704258_employee.employee_user">a330e6902fa33010ab162e5df699b672</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>102578382</payload_hash>
+        <record_name>x_704258_employee_employee.x_704258_employee.employee_user</record_name>
+        <reverted_from/>
+        <source>d14fa7942fa73010ab162e5df699b6c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 05:30:21</sys_created_on>
+        <sys_id>a84026d02fa33010ab162e5df699b6a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>17cc560b20a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 11:15:35</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e04026d0a7a33010ed4505b951e823a1</update_guid>
+        <update_guid_history>e04026d0a7a33010ed4505b951e823a1:102578382</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_704258_employee_employee.x_704258_employee.employee_user">cc8503902f273010ab162e5df699b672</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-28 08:13:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>11c934a9fd2944818c609be62dc7e021</sys_id>
+        <sys_metadata>204026d02fa33010ab162e5df699b69f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_704258_employee_employee.x_704258_employee.employee_user</sys_name>
+        <sys_package display_value="Employee Onboarding" source="x_704258_employee">0d1d92102fa33010ab162e5df699b615</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Employee Onboarding">0d1d92102fa33010ab162e5df699b615</sys_scope>
+        <sys_scope_delete display_value="">019b8f1bdaba4ba4804aa7ba6e66ae10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_204026d02fa33010ab162e5df699b69f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_204026d02fa33010ab162e5df699b69f">a84026d02fa33010ab162e5df699b6a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-28 08:13:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
